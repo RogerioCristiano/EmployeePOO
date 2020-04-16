@@ -4,16 +4,16 @@ public class Employee {
 
 	private String name;
 	private Integer hours;
-	private double valuePerHours;
+	private double valuePerHour;
 	
-	public Employee() {
+	public Employee () {
 		
 	}
 
-	public Employee(String name, Integer hours, double valuePerHours) {
+	public Employee(String name, Integer hours, double valuePerHour) {
 		this.name = name;
 		this.hours = hours;
-		this.valuePerHours = valuePerHours;
+		this.valuePerHour = valuePerHour;
 	}
 
 	public String getName() {
@@ -32,17 +32,16 @@ public class Employee {
 		this.hours = hours;
 	}
 
-	public double getValuePerHours() {
-		return valuePerHours;
+	public double getValuePerHour() {
+		return valuePerHour;
 	}
 
-	public void setValuePerHours(double valuePerHours) {
-		this.valuePerHours = valuePerHours;
+	public void setValuePerHour(double valuePerHour) {
+		this.valuePerHour = valuePerHour;
 	}
 	
-	public double payment() {
-		return hours * valuePerHours;
+	public double pagamento() {
+		return hours * valuePerHour;
 	}
 	
 }
-
